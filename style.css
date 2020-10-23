@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.dropdown-toggle {
+  color: white;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  width: 0.3em;
+  height: 0.3em;
+  margin: -0.3em 0 0 0.4em;
+  vertical-align: middle;
+  content: "";
+  border: 0.3em solid;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotateZ(45deg);
+}
+
+a#navbarDropdown.nav-link.dropdown-toggle {
+  color: #cccccc;
+  font-size: 14px;
+  padding: 0px 29px 0px 17px;
+}
+
+div#navbarSupportedContent.collapse.navbar-collapse {
+  padding: 4px 0px 0px;
+  margin-left: 90px;
+}
