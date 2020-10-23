@@ -20,7 +20,10 @@
   transform: rotateZ(45deg);
 }
 
-a#navbarDropdown.nav-link.dropdown-toggle {
+#navbarDropdown,
+#navbarDropdown1,
+#navbarDropdown2,
+#navbarDropdown3 {
   color: #cccccc;
   font-size: 14px;
   padding: 0px 29px 0px 17px;
@@ -29,4 +32,25 @@ a#navbarDropdown.nav-link.dropdown-toggle {
 div#navbarSupportedContent.collapse.navbar-collapse {
   padding: 4px 0px 0px;
   margin-left: 90px;
+}
+#navbarDropdown4 {
+  color: #de8ae5;
+  font-size: 14px;
+  padding: 0px 29px 0px 17px;
+}
+.misc {
+  width: 100px;
+  height: 60px;
+  color: white;
+}
+
+.fa.fa-search {
+  color: white;
+  margin-top: 30px;
+}
+
+.high {
+  border-bottom: 1px solid rgb(204, 196, 196);
+  margin: 16px 7.5px;
+  padding-bottom: 10px;
 }
