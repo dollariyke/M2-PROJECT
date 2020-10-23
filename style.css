@@ -40,7 +40,7 @@ div#navbarSupportedContent.collapse.navbar-collapse {
 }
 .misc {
   width: 100px;
-  height: 60px;
+  height: 56px;
   color: white;
 }
 
@@ -51,6 +51,12 @@ div#navbarSupportedContent.collapse.navbar-collapse {
 
 .high {
   border-bottom: 1px solid rgb(204, 196, 196);
-  margin: 16px 7.5px;
   padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+  width: auto;
+  height: 56px;
 }
