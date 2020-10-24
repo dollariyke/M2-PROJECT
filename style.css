@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 
 * {
   font-family: "Lato", sans-serif;
+
 }
 
 .dropdown-toggle {
@@ -24,23 +26,24 @@
 #navbarDropdown1,
 #navbarDropdown2,
 #navbarDropdown3 {
-  color: #cccccc;
-  font-size: 14px;
+  color: white;
+  font-size: 16px;
   padding: 0px 29px 0px 17px;
+  font-weight: 900;
 }
 
 div#navbarSupportedContent.collapse.navbar-collapse {
   padding: 4px 0px 0px;
-  margin-left: 90px;
+  
 }
 #navbarDropdown4 {
   color: #de8ae5;
-  font-size: 14px;
+  font-size: 16px;
   padding: 0px 29px 0px 17px;
+  font-weight: 900;
 }
 .misc {
-  width: 100px;
-  height: 60px;
+font-size: 16px;
   color: white;
 }
 
@@ -51,6 +54,15 @@ div#navbarSupportedContent.collapse.navbar-collapse {
 
 .high {
   border-bottom: 1px solid rgb(204, 196, 196);
-  margin: 16px 7.5px;
-  padding-bottom: 10px;
+  margin:0 auto;
+  padding:10px 0;
+}
+
+.fas.fa-highlighter{
+  color:black; 
+  margin-right:20px;
+}
+
+ul.navbar-nav{
+  margin: 0 auto;
 }
