@@ -5,6 +5,9 @@
   font-family: "Lato", sans-serif;
 
 }
+body{
+  background-color: rgb(189, 185, 185);
+}
 
 .dropdown-toggle {
   color: white;
@@ -53,8 +56,8 @@ font-size: 16px;
 }
 
 .high {
-  border-bottom: 1px solid rgb(204, 196, 196);
-  margin:0 auto;
+  border-bottom: 1px solid rgb(165, 159, 159);
+  margin:0 auto 20px;
   padding:10px 0;
 }
 
@@ -65,4 +68,15 @@ font-size: 16px;
 
 ul.navbar-nav{
   margin: 0 auto;
+}
+
+ol.carousel-indicators li.active{
+  background-color: hotpink;
+}
+
+.carousel-indicators{
+  bottom: -50px;
+}
+#sec1{
+  margin-top: 50px;
 }
