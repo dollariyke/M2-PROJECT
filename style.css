@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 
 * {
   font-family: "Lato", sans-serif;
-
 }
-body{
+body {
   background-color: rgb(189, 185, 185);
 }
 
@@ -37,7 +36,6 @@ body{
 
 div#navbarSupportedContent.collapse.navbar-collapse {
   padding: 4px 0px 0px;
-  
 }
 #navbarDropdown4 {
   color: #de8ae5;
@@ -46,7 +44,7 @@ div#navbarSupportedContent.collapse.navbar-collapse {
   font-weight: 900;
 }
 .misc {
-font-size: 16px;
+  font-size: 16px;
   color: white;
 }
 
@@ -57,26 +55,26 @@ font-size: 16px;
 
 .high {
   border-bottom: 1px solid rgb(165, 159, 159);
-  margin:0 auto 20px;
-  padding:10px 0;
+  margin: 0 auto 20px;
+  padding: 10px 0;
 }
 
-.fas.fa-highlighter{
-  color:black; 
-  margin-right:20px;
+.fas.fa-highlighter {
+  color: black;
+  margin-right: 20px;
 }
 
-ul.navbar-nav{
+ul.navbar-nav {
   margin: 0 auto;
 }
 
-ol.carousel-indicators li.active{
+ol.carousel-indicators li.active {
   background-color: hotpink;
 }
 
-.carousel-indicators{
+.carousel-indicators {
   bottom: -50px;
 }
-#sec1{
+#sec1 {
   margin-top: 50px;
 }
