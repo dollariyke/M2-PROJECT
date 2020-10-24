@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 
 * {
   font-family: "Lato", sans-serif;
+
+}
+body{
+  background-color: rgb(189, 185, 185);
 }
 
 .dropdown-toggle {
@@ -24,23 +29,29 @@
 #navbarDropdown1,
 #navbarDropdown2,
 #navbarDropdown3 {
-  color: #cccccc;
-  font-size: 14px;
+  color: white;
+  font-size: 16px;
   padding: 0px 29px 0px 17px;
+  font-weight: 900;
 }
 
 div#navbarSupportedContent.collapse.navbar-collapse {
   padding: 4px 0px 0px;
-  margin-left: 90px;
+  
 }
 #navbarDropdown4 {
   color: #de8ae5;
-  font-size: 14px;
+  font-size: 16px;
   padding: 0px 29px 0px 17px;
+  font-weight: 900;
 }
 .misc {
+<<<<<<< HEAD
   width: 100px;
   height: 56px;
+=======
+font-size: 16px;
+>>>>>>> 56e5e61d795f5fc17eb8e30e5ec8addd43a2a073
   color: white;
 }
 
@@ -50,6 +61,7 @@ div#navbarSupportedContent.collapse.navbar-collapse {
 }
 
 .high {
+<<<<<<< HEAD
   border-bottom: 1px solid rgb(204, 196, 196);
   padding-bottom: 10px;
   margin-top: 20px;
@@ -59,4 +71,29 @@ div#navbarSupportedContent.collapse.navbar-collapse {
 .navbar.navbar-expand-lg.navbar-dark.bg-dark {
   width: auto;
   height: 56px;
+=======
+  border-bottom: 1px solid rgb(165, 159, 159);
+  margin:0 auto 20px;
+  padding:10px 0;
+}
+
+.fas.fa-highlighter{
+  color:black; 
+  margin-right:20px;
+}
+
+ul.navbar-nav{
+  margin: 0 auto;
+}
+
+ol.carousel-indicators li.active{
+  background-color: hotpink;
+}
+
+.carousel-indicators{
+  bottom: -50px;
+>>>>>>> 56e5e61d795f5fc17eb8e30e5ec8addd43a2a073
+}
+#sec1{
+  margin-top: 50px;
 }
