@@ -78,3 +78,33 @@ ol.carousel-indicators li.active {
 #sec1 {
   margin-top: 50px;
 }
+a{
+  text-decoration: none !important;
+  color: black;
+}
+
+.bonus.mx-3.my-auto{
+  color: white;
+  background-color: purple;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.diff span.price_before{
+  font-size: 8px;
+}
+
+.diff span.price_now {
+  font-weight: 600;
+  font-size: 16px;
+
+}
+
+div .card-body{
+  font-size: 14px;
+}
+.col-6.col-md-3{
+  border-radius: 0px !important;
+
+}
