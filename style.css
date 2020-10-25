@@ -125,5 +125,13 @@ padding: 10px 16px;
    border-left: 1px solid rgb(165, 159, 159);
  }
 
- div.conatiner-visa{
-   background-image: url( }
+ div.container.visa{
+   background-image: url(image/tile22.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100px;
+   background-position-y: -180px ;
+   padding: 0;
+   margin-bottom: 15px;
+   
+  }
