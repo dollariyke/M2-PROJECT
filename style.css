@@ -109,10 +109,18 @@ div .card-body{
 
 }
  div.container-fluid.description{
+   margin: 15px 0px 15px 0px;
   border-bottom: 1px solid rgb(165, 159, 159);
   border-top: 1px solid rgb(165, 159, 159);
  }
  .inner-wrapper{
-margin: 0 25px;
+margin: 16px 0px 16px;
 padding: 10px 16px;
+ }
+ .purp{
+   color: purple;
+ }
+ div.gog-round{
+   padding-left: 40px;
+   border-left: 1px solid rgb(165, 159, 159);
  }
