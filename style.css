@@ -113,16 +113,15 @@ div .card-body{
   border-bottom: 1px solid rgb(165, 159, 159);
   border-top: 1px solid rgb(165, 159, 159);
  }
- .inner-wrapper{
-margin: 16px 0px 16px;
-padding: 10px 16px;
- }
+
  .purp{
    color: purple;
- }
+   font-size: 12px;
+   }
  div.gog-round{
-   padding-left: 40px;
+   padding-left: 25px;
    border-left: 1px solid rgb(165, 159, 159);
+   
  }
 
  div.container.visa{
@@ -130,7 +129,7 @@ padding: 10px 16px;
    background-size: cover;
    background-repeat: no-repeat;
    height: 100px;
-   background-position-y: -180px ;
+   background-position-y: -200px ;
    padding: 0;
    margin-bottom: 15px;
    
