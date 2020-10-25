@@ -108,3 +108,11 @@ div .card-body{
   border-radius: 0px !important;
 
 }
+ div.container-fluid.description{
+  border-bottom: 1px solid rgb(165, 159, 159);
+  border-top: 1px solid rgb(165, 159, 159);
+ }
+ .inner-wrapper{
+margin: 0 25px;
+padding: 10px 16px;
+ }
